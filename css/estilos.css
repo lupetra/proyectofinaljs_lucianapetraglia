@@ -1,0 +1,13 @@
+
+.btn-convertir{
+    background-color: rgb(143, 63, 219);
+    color: white;
+}
+
+.navbar{
+    background-color: rgb(88, 20, 151);
+}
+
+.footer{
+    position: fixed; bottom: 0; width: 100%; text-align: center; background-color: rgb(88, 20, 151); 
+}
