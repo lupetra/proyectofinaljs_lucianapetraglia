@@ -19,7 +19,7 @@ async function convertCurrency() {
     const fromCurrency = document.getElementById("from-currency").value;
     const toCurrency = document.getElementById("to-currency").value;
   
-    const exchangeRates = datos_de_monedas;
+    const exchangeRates = datos_de_monedas[0];
   
     const conversionRate = exchangeRates[fromCurrency][toCurrency];
     const result = (amount * conversionRate).toFixed(2);
