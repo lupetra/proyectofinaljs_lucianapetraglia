@@ -1,5 +1,5 @@
 async function convertCurrency() {
-    const resultado = await fetch("/json/monedas.json");
+    const resultado = await fetch("json/monedas.json");
     const datos_de_monedas = await resultado.json();
   
     const amount = parseFloat(document.getElementById("amount").value);
